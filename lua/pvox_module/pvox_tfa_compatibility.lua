@@ -32,7 +32,15 @@ local MDLAliases = {
 
 	["spot"] = "enemy_spotted",
 
-	["HITGROUP"] = "take_damage",
+	["HITGROUP_GENERIC"] = "take_damage",
+	["HITGROUP_HEAD"] = "damage_head",
+	["HITGROUP_CHEST"] = "damage_chest",
+	["HITGROUP_STOMACH"] = "damage_stomach",
+	["HITGROUP_RIGHTLEG"] = "damage_rightleg",
+	["HITGROUP_LEFTLEG"] = "damage_leftleg",
+	["HITGROUP_LEFTARM"] = "damage_leftarm",
+	["HITGROUP_RIGHTARM"] = "damage_rightarm",
+	["HITGROUP_GEAR"] = "damage_gear",
 
 	["ACT_GMOD_TAUNT"] = "inspect",
 
